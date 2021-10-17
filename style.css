@@ -1,0 +1,42 @@
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: rgba(218, 165, 32, 0.719);
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    height: 500px;
+    background-color: darkgoldenrod;
+}
+
+aside {
+    position: sticky;
+    position: -webkit-sticky;
+    top: -100px;
+    height: 800px;
+    background-color: tomato;
+}
+
+#personal-info {
+    height: 200px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    background-color: cornflowerblue;
+}
+
+#results {
+    flex-grow: 1;
+    height: 1800px;
+    background-color: teal;
+}
